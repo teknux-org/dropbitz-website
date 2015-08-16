@@ -6,10 +6,29 @@ body {
   width: 100%;
 }
 
+.btn-primary {
+  background-color: rgb(5, 207, 199);
+  border-color: rgb(7, 192, 185);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: rgb(7, 192, 185);
+  border-color: rgb(6, 180, 174);
+}
+
+a {
+    color: rgb(5, 207, 199);
+}
+
+a:hover, a:focus {
+    color: rgb(7, 192, 185);
+}
+
 .vert-text {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  color: #ffffff;
 }
 
 .vert-text h1 {
@@ -31,7 +50,7 @@ pre.prettyprint {
   margin-right: -250px;
   right: 0;
   width: 250px;
-  background: #000;
+  background: rgb(71, 71, 71);
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -81,11 +100,11 @@ pre.prettyprint {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #999999;
+  color: rgb(7, 192, 185);
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: rgb(5, 207, 199);
   background: none;
 }
 
@@ -117,7 +136,7 @@ pre.prettyprint {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/background-city.png) no-repeat center center fixed; 
+  background: url(../img/background-city-night.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -128,12 +147,13 @@ pre.prettyprint {
 
 .intro {
   padding: 50px 0;
+  background-color: rgb(221, 221, 221);
 }
 
 /* Services */
 
 .services {
-  background: #7fbbda;
+  background: rgb(5, 207, 199);
   padding: 50px 0;
   color: #ffffff;
 }
@@ -150,7 +170,7 @@ i.service-icon {
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
 }
 
@@ -161,7 +181,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/space-background.jpg) no-repeat center center fixed; 
+  background: url(../img/space-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,13 +246,13 @@ i.scroll:hover {
 /* Responsive */
 
 @media (max-width: 768px) {
-	
+
   .header {
-	background: url(../img/background-city.png) no-repeat center center scroll; 
+	background: url(../img/background-city.png) no-repeat center center scroll;
   }
 
   .callout {
-	background: url(../img/space-background.jpg) no-repeat center center scroll; 
+	background: url(../img/space-background.jpg) no-repeat center center scroll;
   }
 
   .map {
