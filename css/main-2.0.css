@@ -1,9 +1,19 @@
 /* Global Styles */
+@font-face {
+  font-family: "Orbitron";
+  src: url("../fonts/Orbitron-Regular.ttf") format("truetype");
+}
 
 html,
 body {
   height: 100%;
   width: 100%;
+}
+
+.brand {
+  font-family: "Orbitron", serif;
+  font-size: 28px;
+  letter-spacing: 1px;
 }
 
 .btn-primary {
